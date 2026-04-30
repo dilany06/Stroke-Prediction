@@ -1,0 +1,106 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Causes of Stroke</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 30px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #dc3545;
+            margin-bottom: 30px;
+        }
+        .cause-card {
+            background: #f1f1f1;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .cause-card h4 {
+            color: #007bff;
+        }
+        .cause-card p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .back-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 Causes of Stroke</h1>
+
+    <div class="cause-card">
+        <h4>1. High Blood Pressure</h4>
+        <p>High blood pressure is the leading cause of stroke. It can cause damage to the blood vessels in the brain, leading to a higher risk of stroke. People with uncontrolled high blood pressure are at an increased risk of both ischemic and hemorrhagic stroke.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>2. Heart Disease</h4>
+        <p>Certain heart conditions, such as atrial fibrillation, heart failure, or heart valve disease, increase the risk of stroke. When the heart's rhythm is irregular, blood can pool and form clots, which can travel to the brain, causing a stroke.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>3. Diabetes</h4>
+        <p>Diabetes can cause damage to the blood vessels, leading to a higher likelihood of stroke. People with diabetes tend to have other risk factors, such as high blood pressure, which further increases their risk.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>4. Smoking</h4>
+        <p>Smoking damages the blood vessels, reduces oxygen in the blood, and increases clotting. Smokers are more likely to develop plaque in the arteries, which can lead to ischemic stroke.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>5. High Cholesterol</h4>
+        <p>High levels of cholesterol can lead to the buildup of plaque in the arteries, reducing blood flow and increasing the likelihood of a stroke. Managing cholesterol through diet, exercise, and medication is essential for stroke prevention.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>6. Obesity</h4>
+        <p>Obesity increases the risk of stroke due to its association with other risk factors like high blood pressure, diabetes, and high cholesterol. Maintaining a healthy weight can help reduce stroke risk.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>7. Family History</h4>
+        <p>Having a family history of stroke or other cardiovascular diseases can increase your risk. If your close relatives have had strokes, it’s important to monitor your own health more closely and manage risk factors effectively.</p>
+    </div>
+
+    <div class="cause-card">
+        <h4>8. Age and Gender</h4>
+        <p>The risk of stroke increases with age, and men are generally at a higher risk. However, after menopause, women’s risk of stroke increases significantly, and women are more likely to die from stroke than men.</p>
+    </div>
+
+    <div class="mt-4">
+        <a href="{% url 'home' %}" class="back-btn">Go Back to Home</a>
+    </div>
+</div>
+
+</body>
+</html>
